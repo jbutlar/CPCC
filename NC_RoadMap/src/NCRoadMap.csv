@@ -1,0 +1,256 @@
+CITY,Murphy,-84.029924,35.089848,1627
+CITY,Franklin,-83.381685,35.181144,3845
+CITY,Cherokee,-83.320278,35.476944,2138
+CITY,Brevard,-82.728701,35.241625,7609
+CITY,Asheville,-82.55581,35.579862,83393
+CITY,Mars Hill,-82.547843,35.828496,1869
+CITY,Hendersonville,-82.461596,35.320586,13137
+CITY,Spruce Pine,-82.069999,35.913743,2175
+CITY,Marion,-82.005855,35.68315,7838
+CITY,Forest City,-81.870107,35.331128,7476
+CITY,Boone,-81.668657,36.211364,17122
+CITY,Hickory,-81.328372,35.737682,40010
+CITY,Gastonia,-81.180249,35.25522,71741
+CITY,Statesville,-80.878531,35.786793,24532
+CITY,Charlotte,-80.829224,35.207193,731424
+CITY,Hamptonville,-80.813939,36.121813,6753
+CITY,Mount Airy,-80.609311,36.500756,10388
+CITY,Salisbury,-80.478479,35.668289,33662
+CITY,Winston-Salem,-80.260491,36.102764,229617
+CITY,Albemarle,-80.195262,35.35836,15903
+CITY,High Point,-79.99751,35.970536,104371
+CITY,Asheboro,-79.813001,35.715211,25012
+CITY,Biscoe,-79.767641,35.360802,1700
+CITY,Rockingham,-79.761236,34.939528,9558
+CITY,Greensboro,-79.761236,36.079868,269666
+CITY,Reidsville,-79.675094,36.345347,14520
+CITY,Siler City,-79.462962,35.72603,7887
+CITY,Sanford,-79.175463,35.475881,28094
+CITY,Lumberton,-79.011947,34.627239,21542
+CITY,Fayetteville,-78.917579,35.066663,200564
+CITY,Durham,-78.907167,35.988644,228330
+CITY,Cary,-78.800208,35.737418,135234
+CITY,Raleigh,-78.64459,35.818835,403892
+CITY,Benson,-78.546108,35.373057,3311
+CITY,Henderson,-78.408536,36.324753,15368
+CITY,Smithfield,-78.346456,35.509129,10966
+CITY,Warsaw,-78.145156,35.000534,3054
+CITY,Goldsboro,-77.977974,35.381961,36437
+CITY,Wilson,-77.941795,35.694117,49167
+CITY,Wilmington,-77.912122,34.223232,106476
+CITY,Rocky Mount,-77.805572,35.954112,57477
+CITY,Roanoke Rapids,-77.654822,36.454528,15754
+CITY,Kinston,-77.58513,35.270676,21677
+CITY,Jacksonville,-77.409765,34.75963,70145
+CITY,Greenville,-77.372366,35.601613,84554
+CITY,New Bern,-77.069111,35.10907,29524
+CITY,Williamston,-77.062588,35.851454,5511
+CITY,Washington,-77.05205,35.55349,9744
+CITY,Morehead City,-76.746748,34.7277,8661
+CITY,Elizabeth City,-76.224954,36.295585,18683
+CITY,Barco,-75.99581,36.400822,881
+CITY,Manteo,-75.669385,35.904595,1434
+ROAD,Murphy,Franklin
+ROAD,Murphy,Cherokee
+ROAD,Franklin,Murphy
+ROAD,Franklin,Cherokee
+ROAD,Franklin,Brevard
+ROAD,Cherokee,Murphy
+ROAD,Cherokee,Franklin
+ROAD,Cherokee,Asheville
+ROAD,Brevard,Franklin
+ROAD,Brevard,Asheville
+ROAD,Brevard,Hendersonville
+ROAD,Asheville,Cherokee
+ROAD,Asheville,Brevard
+ROAD,Asheville,Mars Hill
+ROAD,Asheville,Hendersonville
+ROAD,Asheville,Marion
+ROAD,Mars Hill,Asheville
+ROAD,Mars Hill,Spruce Pine
+ROAD,Hendersonville,Brevard
+ROAD,Hendersonville,Asheville
+ROAD,Hendersonville,Forest City
+ROAD,Spruce Pine,Mars Hill
+ROAD,Spruce Pine,Marion
+ROAD,Spruce Pine,Boone
+ROAD,Marion,Asheville
+ROAD,Marion,Spruce Pine
+ROAD,Marion,Forest City
+ROAD,Marion,Hickory
+ROAD,Forest City,Hendersonville
+ROAD,Forest City,Marion
+ROAD,Forest City,Gastonia
+ROAD,Boone,Spruce Pine
+ROAD,Boone,Hickory
+ROAD,Boone,Hamptonville
+ROAD,Hickory,Marion
+ROAD,Hickory,Boone
+ROAD,Hickory,Gastonia
+ROAD,Hickory,Statesville
+ROAD,Gastonia,Forest City
+ROAD,Gastonia,Hickory
+ROAD,Gastonia,Charlotte
+ROAD,Statesville,Hickory
+ROAD,Statesville,Charlotte
+ROAD,Statesville,Hamptonville
+ROAD,Statesville,Salisbury
+ROAD,Statesville,Winston-Salem
+ROAD,Charlotte,Gastonia
+ROAD,Charlotte,Statesville
+ROAD,Charlotte,Salisbury
+ROAD,Charlotte,Albemarle
+ROAD,Charlotte,Rockingham
+ROAD,Hamptonville,Boone
+ROAD,Hamptonville,Statesville
+ROAD,Hamptonville,Mount Airy
+ROAD,Hamptonville,Winston-Salem
+ROAD,Mount Airy,Hamptonville
+ROAD,Mount Airy,Winston-Salem
+ROAD,Mount Airy,Reidsville
+ROAD,Salisbury,Statesville
+ROAD,Salisbury,Charlotte
+ROAD,Salisbury,Albemarle
+ROAD,Salisbury,High Point
+ROAD,Salisbury,Asheboro
+ROAD,Winston-Salem,Statesville
+ROAD,Winston-Salem,Hamptonville
+ROAD,Winston-Salem,Mount Airy
+ROAD,Winston-Salem,High Point
+ROAD,Winston-Salem,Greensboro
+ROAD,Winston-Salem,Reidsville
+ROAD,Albemarle,Charlotte
+ROAD,Albemarle,Salisbury
+ROAD,Albemarle,Biscoe
+ROAD,High Point,Salisbury
+ROAD,High Point,Winston-Salem
+ROAD,High Point,Asheboro
+ROAD,High Point,Greensboro
+ROAD,Asheboro,Salisbury
+ROAD,Asheboro,High Point
+ROAD,Asheboro,Biscoe
+ROAD,Asheboro,Greensboro
+ROAD,Asheboro,Siler City
+ROAD,Biscoe,Albemarle
+ROAD,Biscoe,Asheboro
+ROAD,Biscoe,Rockingham
+ROAD,Biscoe,Sanford
+ROAD,Rockingham,Charlotte
+ROAD,Rockingham,Biscoe
+ROAD,Rockingham,Sanford
+ROAD,Rockingham,Lumberton
+ROAD,Greensboro,Winston-Salem
+ROAD,Greensboro,High Point
+ROAD,Greensboro,Asheboro
+ROAD,Greensboro,Reidsville
+ROAD,Greensboro,Siler City
+ROAD,Greensboro,Durham
+ROAD,Reidsville,Mount Airy
+ROAD,Reidsville,Winston-Salem
+ROAD,Reidsville,Greensboro
+ROAD,Reidsville,Henderson
+ROAD,Siler City,Asheboro
+ROAD,Siler City,Greensboro
+ROAD,Siler City,Sanford
+ROAD,Siler City,Cary
+ROAD,Sanford,Biscoe
+ROAD,Sanford,Rockingham
+ROAD,Sanford,Siler City
+ROAD,Sanford,Fayetteville
+ROAD,Sanford,Cary
+ROAD,Lumberton,Rockingham
+ROAD,Lumberton,Fayetteville
+ROAD,Lumberton,Wilmington
+ROAD,Fayetteville,Sanford
+ROAD,Fayetteville,Lumberton
+ROAD,Fayetteville,Raleigh
+ROAD,Fayetteville,Benson
+ROAD,Fayetteville,Warsaw
+ROAD,Durham,Greensboro
+ROAD,Durham,Cary
+ROAD,Durham,Raleigh
+ROAD,Durham,Henderson
+ROAD,Cary,Siler City
+ROAD,Cary,Sanford
+ROAD,Cary,Durham
+ROAD,Cary,Raleigh
+ROAD,Raleigh,Fayetteville
+ROAD,Raleigh,Durham
+ROAD,Raleigh,Cary
+ROAD,Raleigh,Benson
+ROAD,Raleigh,Henderson
+ROAD,Raleigh,Smithfield
+ROAD,Raleigh,Wilson
+ROAD,Raleigh,Rocky Mount
+ROAD,Benson,Fayetteville
+ROAD,Benson,Raleigh
+ROAD,Benson,Smithfield
+ROAD,Benson,Warsaw
+ROAD,Henderson,Reidsville
+ROAD,Henderson,Durham
+ROAD,Henderson,Raleigh
+ROAD,Henderson,Roanoke Rapids
+ROAD,Smithfield,Raleigh
+ROAD,Smithfield,Benson
+ROAD,Smithfield,Goldsboro
+ROAD,Smithfield,Wilson
+ROAD,Warsaw,Fayetteville
+ROAD,Warsaw,Benson
+ROAD,Warsaw,Goldsboro
+ROAD,Warsaw,Wilmington
+ROAD,Warsaw,Jacksonville
+ROAD,Goldsboro,Smithfield
+ROAD,Goldsboro,Warsaw
+ROAD,Goldsboro,Wilson
+ROAD,Goldsboro,Kinston
+ROAD,Goldsboro,Greenville
+ROAD,Wilson,Raleigh
+ROAD,Wilson,Smithfield
+ROAD,Wilson,Goldsboro
+ROAD,Wilson,Rocky Mount
+ROAD,Wilson,Greenville
+ROAD,Wilmington,Lumberton
+ROAD,Wilmington,Warsaw
+ROAD,Wilmington,Jacksonville
+ROAD,Rocky Mount,Raleigh
+ROAD,Rocky Mount,Wilson
+ROAD,Rocky Mount,Roanoke Rapids
+ROAD,Rocky Mount,Williamston
+ROAD,Roanoke Rapids,Henderson
+ROAD,Roanoke Rapids,Rocky Mount
+ROAD,Roanoke Rapids,Elizabeth City
+ROAD,Kinston,Goldsboro
+ROAD,Kinston,Jacksonville
+ROAD,Kinston,Greenville
+ROAD,Kinston,New Bern
+ROAD,Jacksonville,Warsaw
+ROAD,Jacksonville,Wilmington
+ROAD,Jacksonville,Kinston
+ROAD,Jacksonville,New Bern
+ROAD,Jacksonville,Morehead City
+ROAD,Greenville,Goldsboro
+ROAD,Greenville,Wilson
+ROAD,Greenville,Kinston
+ROAD,Greenville,Williamston
+ROAD,Greenville,Washington
+ROAD,New Bern,Kinston
+ROAD,New Bern,Jacksonville
+ROAD,New Bern,Washington
+ROAD,New Bern,Morehead City
+ROAD,Williamston,Rocky Mount
+ROAD,Williamston,Greenville
+ROAD,Williamston,Washington
+ROAD,Williamston,Elizabeth City
+ROAD,Williamston,Manteo
+ROAD,Washington,Greenville
+ROAD,Washington,New Bern
+ROAD,Washington,Williamston
+ROAD,Morehead City,Jacksonville
+ROAD,Morehead City,New Bern
+ROAD,Elizabeth City,Roanoke Rapids
+ROAD,Elizabeth City,Williamston
+ROAD,Elizabeth City,Barco
+ROAD,Barco,Elizabeth City
+ROAD,Barco,Manteo
+ROAD,Manteo,Williamston
+ROAD,Manteo,Barco
