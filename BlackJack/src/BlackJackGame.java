@@ -22,7 +22,7 @@ private boolean softAce = false; // determines if hand contains ace and has valu
 
 
     // 3-param constructor for setup of game
-	public BlackJackGame(int deckNum, String userID, String softConsider)
+   public BlackJackGame(int deckNum, String userID, String softConsider)
    {
    
 	   numChips = 1000;
@@ -36,7 +36,7 @@ private boolean softAce = false; // determines if hand contains ace and has valu
 		isSoftHit = true;	
 		}	
 
-	}
+     }
    
 
 
@@ -64,7 +64,7 @@ private boolean softAce = false; // determines if hand contains ace and has valu
 	 	}
 	 	if (playerHand.getHand().size() == 2 && playerHand.handValue() == 21)
 	 	{
-            playerBlackJack = true;
+            		playerBlackJack = true;
 	 	}
 	 	if (dealerHand.getHand().size() == 2 && dealerHand.handValue() == 21)
 	 	{
@@ -75,7 +75,6 @@ private boolean softAce = false; // determines if hand contains ace and has valu
 	 		softAce = true;
 		}
 
-    	
 	}
     
     // shows a hand that hasn't been stood yet, with dealer's second card hidden
