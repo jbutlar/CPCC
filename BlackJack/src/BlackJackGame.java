@@ -307,37 +307,37 @@ public class BlackJackFX extends Application
 		    	
 		    if(aGame.playerHasBlackJ() || aGame.dealerHasBlackJ())
 		    { 
-					initialHandText += "\n\n" + aGame.stand(userBet);
-	
-						    if (aGame.getCache() <= 1)
-							{
-								outOfMoney = userName + ", you are out of bettable money, enter another bet " + 
-								                "to start the game over.";
-								zeroCache = true;
+			    initialHandText += "\n\n" + aGame.stand(userBet);
 
-							}
-							else
-							{
-								outOfMoney = "\n" + userName + ", you have $" + aGame.getCache() +
-								              "\nEnter another bet to play another hand";
-							}
-					
-						    displayGameEvents.setText(notifyOfZero + initialHandText + "\n"
-											 + "\n\nShoe now has " + aGame.shoeSize() 
-						                     + " cards" + "\n" + outOfMoney); 
-					aGame.discardHand();
-					handInPlay = false;
-	
+			        if (aGame.getCache() <= 1)
+				{
+					outOfMoney = userName + ", you are out of bettable money, enter another bet " + 
+							"to start the game over.";
+					zeroCache = true;
+
 				}
 				else
 				{
-					initialHandText += 	(notifyOfZero +
-					                    "\nShoe now has " + aGame.shoeSize() 
-						                + " cards" + "\n\n" + aGame.showCurrentHand() + 
-					  					"\n\nOptions Above: Hit, Stand, Doubledown, Exit");
-					displayGameEvents.setText(initialHandText);
-	
+					outOfMoney = "\n" + userName + ", you have $" + aGame.getCache() +
+						      "\nEnter another bet to play another hand";
 				}
+
+			    displayGameEvents.setText(notifyOfZero + initialHandText + "\n"
+								 + "\n\nShoe now has " + aGame.shoeSize() 
+					     + " cards" + "\n" + outOfMoney); 
+			aGame.discardHand();
+			handInPlay = false;
+	
+		    }
+		    else
+		    {
+			initialHandText += 	(notifyOfZero +
+					    "\nShoe now has " + aGame.shoeSize() 
+						+ " cards" + "\n\n" + aGame.showCurrentHand() + 
+								"\n\nOptions Above: Hit, Stand, Doubledown, Exit");
+			displayGameEvents.setText(initialHandText);
+
+		    }
 	      }
 		 
 	    });
@@ -351,8 +351,8 @@ public class BlackJackFX extends Application
 	    VBox hitArea = new VBox(20);
 	    Label hitLabel = new Label("Press to hit current hand");
 	    hitLabel.setFont(labelFont);
-        hitMessages = new Label();
-        hitMessages.setFont(labelFont);
+            hitMessages = new Label();
+            hitMessages.setFont(labelFont);
 	    hit.setOnAction(e-> hitAction(e));
 	    hitArea.getChildren().addAll(hitLabel, hit, hitMessages);
         
@@ -381,7 +381,7 @@ public class BlackJackFX extends Application
         
 	    exitButton.setOnAction((ActionEvent e) -> 
 	    {
-            System.exit(0);
+              System.exit(0);
 	    });
     
 	    exitArea.getChildren().addAll(exitLabel, exitButton);
@@ -392,20 +392,17 @@ public class BlackJackFX extends Application
 	    playPane.setCenter(gameEventDisplay);
 	    playPane.setPadding(new Insets(75));
    
-      return playPane;
+            return playPane;
 	}
     
 
     // action method for the start game button, many checks on input
 	public void switchToPlayArea(ActionEvent e)
 	{
-	
-
 	    userName = inputUser.getText();
 	    boolean yesForSoft = yes.isSelected();
 	    boolean noForSoft = no.isSelected();
 		
-    	
     	    boolean parametersComply = false;
       
     	if (e.getSource() == startGame)
@@ -413,8 +410,8 @@ public class BlackJackFX extends Application
       
             boolean isNumber = true;
    
-        try 
-	    {
+		try 
+	        {
 		    gameDecks = Integer.parseInt(inputNumDecks.getText());
 		}
 		catch (NumberFormatException err)
@@ -426,7 +423,7 @@ public class BlackJackFX extends Application
 		{
 			incorrectDeckNumber.setText("That's not a number");
 		}
-	    else if(isNumber && gameDecks < 1 || gameDecks > 4 && 
+	        else if(isNumber && gameDecks < 1 || gameDecks > 4 && 
 	           (!yesForSoft && !noForSoft))
 		{
 			incorrectDeckNumber.setText("You must use at least one, but no more than four, "
